@@ -39,6 +39,7 @@ glozin-theme-clone/
 ├── index.html
 ├── style.css
 ├── glozin.js
+├── preview.png
 │
 ├── glozin-media/
 │   ├── Mobile search glozin.mp4
@@ -48,6 +49,7 @@ glozin-theme-clone/
 │   └── vss-vid glozin.mp4
 │
 └── README.md
+
 ```
 
 ## 🎯 What I Learned
