@@ -44,8 +44,30 @@ body {
   text-decoration: none;
   font-weight: 500;
 }
-
+main {
+  padding-top: 80px;
+}
 /* NAV-BAR */
+.my-navbar {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  z-index: 9999 !important;
+  background: rgba(10, 10, 30, 0.6) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  height: 70px !important;
+}
+
+.my-navbar > .container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  height: 100% !important;
+  width: 100% !important;
+}
 .nav-btn {
   font-size: 10px;
   color: white;
@@ -67,18 +89,10 @@ body {
 .desktop-nav .navbar-nav {
   flex: 1;
   justify-content: center;
+  flex-direction: row !important;
 }
 .nav-btn:hover {
   background-color: #3713bb;
-}
-.navbar {
-  background:
-    radial-gradient(
-      circle at 75% 55%,
-      rgba(255, 90, 120, 0.15),
-      transparent 40%
-    ),
-    linear-gradient(135deg, #05060f, #0b0f2a, #141a3a, #1c2248);
 }
 .nav-btn img {
   margin: 0 5px 0;
@@ -201,10 +215,10 @@ body {
   color: #794aff;
 }
 
-#menuToggle:checked ~ nav .menu-overlay {
+#menuToggle:checked ~ .my-navbar .menu-overlay {
   display: block;
 }
-#menuToggle:checked ~ nav .mobile-menu {
+#menuToggle:checked ~ .my-navbar .mobile-menu {
   left: 0;
 }
 .top1 {
@@ -1256,19 +1270,6 @@ body {
   .container-xl,
   .container-xxl {
     max-width: 1571px;
-  }
-}
-@media (max-width: 991px) {
-  .navbar > .container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    position: relative;
-    gap: 14px;
-  }
-
-  .d-lg-none.nav-btn {
-    margin-left: auto;
   }
 }
 @media (max-width: 768px) {
