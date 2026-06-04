@@ -9,7 +9,7 @@ https://syedabsar99.github.io/glozin-theme-clone/
 
 ## 📸 Preview
 
-Add a screenshot here after uploading one.
+![Glozin Theme Clone Preview](preview.png)
 
 ## ✨ Features
 
