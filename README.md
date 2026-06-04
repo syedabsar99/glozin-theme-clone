@@ -4,7 +4,8 @@ A responsive and modern landing page clone inspired by the Glozin WordPress Them
 
 ## 🚀 Live Demo
 
-Coming Soon
+🔗 Live Website:
+https://syedabsar99.github.io/glozin-theme-clone/
 
 ## 📸 Preview
 
