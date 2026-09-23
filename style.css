@@ -7,6 +7,8 @@ html,
 body {
   height: 100%;
   width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
   background:
     radial-gradient(
       circle at 75% 55%,
@@ -1337,7 +1339,7 @@ main {
   .vid-span {
     font-size: 9px;
   }
-  tl-para {
+  .tl-para {
     font-size: 10px;
   }
   .carousel-track {
@@ -1363,6 +1365,27 @@ main {
   }
   .faq-container {
     padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider-heading {
+    font-size: 22px;
+  }
+  .vss-vid {
+    width: 95%;
+  }
+  .card-carousel-section {
+    padding: 0 12px;
+  }
+  .top-reveiws-card {
+    width: 100%;
+  }
+  .tb-end img {
+    min-height: 320px;
+  }
+  .tl-number {
+    max-width: 100%;
   }
 }
 @media (min-width: 1400px) {
